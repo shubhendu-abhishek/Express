@@ -9,8 +9,8 @@ var port = 8080;
 
 var app = express();
 var s3 = new aws.S3({
-    secretAccessKey: '0/gq4Y6xu0aU2VGbjWpPmvmSYqPtI//lqRvxRcrS',
-    accessKeyId: 'AKIAIEELJSJG2QQDJMGQ'
+    secretAccessKey: '',
+    accessKeyId: ''
 });
 
 app.use(bodyParser.json({ limit: '100mb' }));
@@ -25,7 +25,7 @@ var upload = multer({
             fileSize: 512000
         },
         ACL: 'private',
-        bucket: 'jiyostudio',
+        bucket: '',
         contentType: multerS3.AUTO_CONTENT_TYPE,
         // metadata: function(req, file, cb) {
         //     console.log('fieldName', file.mimetype)
