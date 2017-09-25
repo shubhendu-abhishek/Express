@@ -1,0 +1,21 @@
+{
+  "name": "companyfeedback",
+  "version": "1.0.0",
+  "description": "Company Feedback Web Applications",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "shubhendu.abhishek"
+  },
+  "author": "shubhendu abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.2",
+    "mpromise": "^0.5.5"
+  }
+}
