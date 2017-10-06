@@ -1,0 +1,24 @@
+{
+  "name": "readfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "shubhendu-abhishek"
+  },
+  "author": "shubhendu abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.1",
+    "get-element": "^0.1.1",
+    "html-element": "^2.2.0",
+    "htmlparser2": "^3.9.2",
+    "jsdom": "^11.3.0",
+    "request": "^2.83.0"
+  }
+}
